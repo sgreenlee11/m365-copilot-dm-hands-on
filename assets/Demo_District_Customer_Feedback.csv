@@ -1,0 +1,96 @@
+# Fictitious demo data for Microsoft 365 Copilot training. Not real customer, associate, vendor, or financial data.
+Date,Store ID,Store Name,Channel,Department,Customer Segment,Topic,Sentiment,Rating (1-5),Feedback Text,Resolution Status
+2026-08-10,NW-0703,Cedar Park,Online review,Store Experience,First-time,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-08-10,NW-0704,Harbor View,Post-visit survey,Lumber & Building Materials,DIY,Product availability,Negative,2,Website showed 40 in stock but the bay was empty.,Resolved
+2026-08-10,NW-0705,Oak Hollow,Post-visit survey,Order Pickup,First-time,Order pickup (BOPIS),Positive,5,Pickup was ready early and the associate loaded my truck in two minutes.,Closed - Recognized
+2026-08-10,NW-0706,Pinecrest,Post-visit survey,Online,DIY,Mobile app / online order,Neutral,2,App aisle locations were mostly right.,Resolved
+2026-08-10,NW-0708,Westfield,Post-visit survey,Store Experience,Pro,Associate helpfulness,Positive,5,Associate walked me to the exact aisle and explained which part I needed.,Closed - Recognized
+2026-08-10,NW-0709,Brookside,Call center,Tools & Hardware,First-time,Locked merchandise,Neutral,2,Understand why the tools are locked. Call button response was about five minutes.,Resolved
+2026-08-11,NW-0704,Harbor View,Post-visit survey,Store Experience,Pro,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-08-11,NW-0710,Summit,Call center,Store Experience,Pro,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-08-12,NW-0701,Lakeside,Post-visit survey,Store Experience,First-time,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-08-12,NW-0702,Riverside,Online review,Kitchen & Bath,Services,Installation services,Positive,5,Associate walked me through installation options and scheduled the measure on the spot.,Closed - Recognized
+2026-08-12,NW-0704,Harbor View,Call center,Lumber & Building Materials,DIY,Product availability,Negative,1,Third time this month the item I needed was out of stock.,Escalated
+2026-08-13,NW-0705,Oak Hollow,Post-visit survey,Store Experience,First-time,Returns,Neutral,2,Return was easy but the line was slow.,Resolved
+2026-08-13,NW-0707,Northgate,Mobile app,Store Experience,DIY,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-08-15,NW-0701,Lakeside,Mobile app,Appliances,Pro,Delivery,Negative,1,Appliance delivery was a day late with no update.,Escalated
+2026-08-17,NW-0702,Riverside,Post-visit survey,Store Experience,DIY,Associate helpfulness,Positive,5,Associate walked me to the exact aisle and explained which part I needed.,Closed - Recognized
+2026-08-18,NW-0707,Northgate,Mobile app,Pro Desk,Pro,Pro customer experience,Positive,5,Pro Desk had my order pulled before I arrived. Best in the area.,Closed - Recognized
+2026-08-19,NW-0708,Westfield,Mobile app,Online,Pro,Mobile app / online order,Neutral,2,App aisle locations were mostly right.,Resolved
+2026-08-21,NW-0706,Pinecrest,Post-visit survey,Lumber & Building Materials,DIY,Product availability,Negative,2,Website showed 40 in stock but the bay was empty.,In Progress
+2026-08-22,NW-0705,Oak Hollow,Call center,Store Experience,Pro,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-08-23,NW-0701,Lakeside,Post-visit survey,Order Pickup,DIY,Order pickup (BOPIS),Positive,5,Pickup was ready early and the associate loaded my truck in two minutes.,Closed - Recognized
+2026-08-23,NW-0705,Oak Hollow,Post-visit survey,Online,Pro,Mobile app / online order,Neutral,3,App aisle locations were mostly right.,Resolved
+2026-08-24,NW-0702,Riverside,Online review,Pro Desk,Pro,Pro customer experience,Positive,5,Pro Desk had my order pulled before I arrived. Best in the area.,Closed - Recognized
+2026-08-24,NW-0709,Brookside,Post-visit survey,Store Experience,First-time,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-08-25,NW-0702,Riverside,Call center,Store Experience,DIY,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-08-26,NW-0709,Brookside,Online review,Tools & Hardware,DIY,Locked merchandise,Negative,1,Waited ten minutes for someone to unlock a drill case.,Resolved
+2026-08-27,NW-0708,Westfield,Mobile app,Store Experience,Pro,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-08-27,NW-0709,Brookside,Post-visit survey,Tools & Hardware,Pro,Locked merchandise,Negative,1,Nobody answered the call button at the locked tool case.,Escalated
+2026-08-28,NW-0702,Riverside,Post-visit survey,Order Pickup,DIY,Order pickup (BOPIS),Positive,5,Saturday pickup was fast even with a crowd. Great system.,Closed - Recognized
+2026-08-28,NW-0704,Harbor View,Online review,Order Pickup,DIY,Order pickup (BOPIS),Negative,2,Weekend pickup is unreliable here. I drove to another store instead.,In Progress
+2026-08-28,NW-0707,Northgate,Post-visit survey,Pro Desk,Pro,Pro customer experience,Positive,5,The Pro team knows my jobs and saves me hours every week.,Closed - Recognized
+2026-08-29,NW-0704,Harbor View,Online review,Lumber & Building Materials,DIY,Product availability,Negative,2,Website showed 40 in stock but the bay was empty.,Escalated
+2026-08-29,NW-0704,Harbor View,Online review,Store Experience,DIY,Checkout,Negative,2,Checkout line took longer than my whole shopping trip.,Open
+2026-08-29,NW-0707,Northgate,Post-visit survey,Pro Desk,Pro,Pro customer experience,Positive,5,Pro Desk had my order pulled before I arrived. Best in the area.,Closed - Recognized
+2026-08-29,NW-0708,Westfield,Post-visit survey,Order Pickup,Pro,Order pickup (BOPIS),Positive,5,Pickup was ready early and the associate loaded my truck in two minutes.,Closed - Recognized
+2026-08-30,NW-0709,Brookside,Mobile app,Store Experience,DIY,Associate helpfulness,Negative,1,Pressed the help button twice and nobody came.,In Progress
+2026-08-31,NW-0703,Cedar Park,Call center,Store Experience,DIY,Returns,Neutral,3,Return was easy but the line was slow.,Open
+2026-08-31,NW-0704,Harbor View,Post-visit survey,Order Pickup,DIY,Order pickup (BOPIS),Negative,1,Waited 25 minutes at the pickup desk on Saturday and my order still was not staged.,Escalated
+2026-08-31,NW-0706,Pinecrest,Post-visit survey,Store Experience,DIY,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-08-31,NW-0707,Northgate,Post-visit survey,Pro Desk,Pro,Pro customer experience,Positive,5,Pro loading was fast and the associate double-checked every item.,Closed - Recognized
+2026-09-01,NW-0702,Riverside,Mobile app,Store Experience,DIY,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-09-01,NW-0704,Harbor View,Post-visit survey,Order Pickup,First-time,Order pickup (BOPIS),Negative,1,App said my order was ready but it took three associates to find it.,In Progress
+2026-09-01,NW-0705,Oak Hollow,Call center,Appliances,DIY,Delivery,Negative,2,Appliance delivery was a day late with no update.,In Progress
+2026-09-01,NW-0708,Westfield,Post-visit survey,Lumber & Building Materials,DIY,Product availability,Negative,2,Website showed 40 in stock but the bay was empty.,Open
+2026-09-01,NW-0709,Brookside,Post-visit survey,Tools & Hardware,DIY,Locked merchandise,Negative,1,I understand the theft problem but waiting for keys for every item is frustrating.,Escalated
+2026-09-02,NW-0707,Northgate,Post-visit survey,Lumber & Building Materials,DIY,Store safety,Negative,1,A forklift was moving in the lumber aisle while customers were still in it.,Resolved
+2026-09-03,NW-0702,Riverside,Online review,Kitchen & Bath,Services,Installation services,Positive,5,Loved that they set up my flooring install before I left the store.,Closed - Recognized
+2026-09-03,NW-0702,Riverside,Post-visit survey,Order Pickup,DIY,Order pickup (BOPIS),Positive,5,Pickup was ready early and the associate loaded my truck in two minutes.,Closed - Recognized
+2026-09-03,NW-0703,Cedar Park,Post-visit survey,Lumber & Building Materials,DIY,Product availability,Negative,1,Website showed 40 in stock but the bay was empty.,In Progress
+2026-09-03,NW-0706,Pinecrest,Online review,Store Experience,Pro,Returns,Neutral,2,Return was easy but the line was slow.,Resolved
+2026-09-04,NW-0709,Brookside,Mobile app,Tools & Hardware,First-time,Locked merchandise,Negative,1,Waited ten minutes for someone to unlock a drill case.,Open
+2026-09-05,NW-0702,Riverside,Post-visit survey,Kitchen & Bath,Services,Installation services,Positive,5,Installation consult was booked the same day I bought the vanity.,Closed - Recognized
+2026-09-05,NW-0703,Cedar Park,Mobile app,Store Experience,DIY,Checkout,Negative,1,Only one register open and self-checkout was down.,Resolved
+2026-09-05,NW-0704,Harbor View,Post-visit survey,Store Experience,DIY,Associate helpfulness,Negative,2,Associate was friendly but clearly stretched across three departments.,Open
+2026-09-05,NW-0704,Harbor View,Call center,Store Experience,Pro,Associate helpfulness,Negative,2,Could not find anyone to help in the aisle for fifteen minutes.,Resolved
+2026-09-05,NW-0710,Summit,Mobile app,Lumber & Building Materials,Pro,Product availability,Negative,1,Website showed 40 in stock but the bay was empty.,Resolved
+2026-09-06,NW-0701,Lakeside,Call center,Store Experience,First-time,Returns,Neutral,2,Return was easy but the line was slow.,Resolved
+2026-09-06,NW-0703,Cedar Park,Call center,Store Experience,DIY,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-09-06,NW-0704,Harbor View,Post-visit survey,Store Experience,First-time,Associate helpfulness,Negative,2,Pressed the help button twice and nobody came.,Open
+2026-09-06,NW-0704,Harbor View,Online review,Store Experience,DIY,Checkout,Negative,1,Only one register open and self-checkout was down.,Escalated
+2026-09-07,NW-0704,Harbor View,Mobile app,Order Pickup,DIY,Order pickup (BOPIS),Negative,2,App said my order was ready but it took three associates to find it.,Open
+2026-09-07,NW-0707,Northgate,Mobile app,Appliances,Pro,Delivery,Negative,1,Delivery window was 8 to 5 and they arrived after 6.,Open
+2026-09-07,NW-0710,Summit,Post-visit survey,Garden & Seasonal,Pro,Seasonal readiness,Negative,1,Came for fall decor and mums but the garden center is still set for summer.,Open
+2026-09-07,NW-0710,Summit,Post-visit survey,Store Experience,Pro,Returns,Neutral,2,Return was easy but the line was slow.,Open
+2026-09-08,NW-0704,Harbor View,Online review,Lumber & Building Materials,DIY,Product availability,Negative,1,Could not find the lumber I needed and nobody could tell me when it would be back.,Open
+2026-09-08,NW-0704,Harbor View,Post-visit survey,Order Pickup,Pro,Order pickup (BOPIS),Negative,1,Got the ready-for-pickup text but half the order was missing when I arrived.,Resolved
+2026-09-08,NW-0707,Northgate,Call center,Lumber & Building Materials,DIY,Store safety,Negative,2,Overstock pallets partially blocking the aisle near lumber.,Open
+2026-09-08,NW-0707,Northgate,Post-visit survey,Appliances,DIY,Delivery,Negative,1,Appliance delivery was a day late with no update.,In Progress
+2026-09-08,NW-0708,Westfield,Post-visit survey,Store Experience,Pro,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-09-08,NW-0709,Brookside,Post-visit survey,Kitchen & Bath,Services,Installation services,Positive,5,Installation consult was booked the same day I bought the vanity.,Closed - Recognized
+2026-09-08,NW-0709,Brookside,Call center,Store Experience,DIY,Associate helpfulness,Negative,1,Could not find anyone to help in the aisle for fifteen minutes.,Resolved
+2026-09-08,NW-0709,Brookside,Post-visit survey,Tools & Hardware,DIY,Locked merchandise,Negative,1,Had to find an associate three separate times to unlock items on one trip.,Resolved
+2026-09-08,NW-0709,Brookside,Post-visit survey,Tools & Hardware,Pro,Locked merchandise,Neutral,3,Tool cases are locked but the associate came quickly once I found one.,Resolved
+2026-09-09,NW-0701,Lakeside,Call center,Kitchen & Bath,Services,Installation services,Positive,5,Installation consult was booked the same day I bought the vanity.,Closed - Recognized
+2026-09-09,NW-0704,Harbor View,Call center,Store Experience,First-time,Associate helpfulness,Negative,1,Could not find anyone to help in the aisle for fifteen minutes.,Resolved
+2026-09-09,NW-0704,Harbor View,Mobile app,Order Pickup,DIY,Order pickup (BOPIS),Negative,1,Pickup desk had one person and a line of eight customers.,Escalated
+2026-09-09,NW-0707,Northgate,Post-visit survey,Lumber & Building Materials,Pro,Store safety,Negative,1,Associate on the lift had no spotter and my kid was right there.,Escalated
+2026-09-10,NW-0703,Cedar Park,Online review,Online,Pro,Mobile app / online order,Neutral,2,App aisle locations were mostly right.,Resolved
+2026-09-10,NW-0709,Brookside,Post-visit survey,Store Experience,DIY,Associate helpfulness,Negative,1,Associate was friendly but clearly stretched across three departments.,Open
+2026-09-10,NW-0710,Summit,Call center,Garden & Seasonal,DIY,Seasonal readiness,Negative,1,Other stores already have fall products out. This one does not.,Escalated
+2026-09-11,NW-0706,Pinecrest,Post-visit survey,Store Experience,First-time,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-09-11,NW-0710,Summit,Post-visit survey,Garden & Seasonal,DIY,Seasonal readiness,Negative,2,Half the seasonal area is empty bays and clearance patio furniture.,In Progress
+2026-09-12,NW-0702,Riverside,Mobile app,Store Experience,First-time,Returns,Neutral,2,Return was easy but the line was slow.,Resolved
+2026-09-12,NW-0704,Harbor View,Call center,Order Pickup,Pro,Order pickup (BOPIS),Negative,1,Waited 25 minutes at the pickup desk on Saturday and my order still was not staged.,Escalated
+2026-09-12,NW-0707,Northgate,Online review,Lumber & Building Materials,Pro,Store safety,Negative,2,Felt unsafe when pallets were being lowered with no one blocking the aisle.,Resolved
+2026-09-12,NW-0710,Summit,Post-visit survey,Garden & Seasonal,DIY,Seasonal readiness,Negative,2,Came for fall decor and mums but the garden center is still set for summer.,In Progress
+2026-09-13,NW-0709,Brookside,Post-visit survey,Store Experience,DIY,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-09-14,NW-0701,Lakeside,Call center,Store Experience,Pro,Associate helpfulness,Positive,5,"Clean store, well-stocked, and a very helpful associate in plumbing.",Closed - Recognized
+2026-09-14,NW-0709,Brookside,Call center,Tools & Hardware,Pro,Locked merchandise,Negative,1,Locked cases make it impossible to compare tools side by side.,Escalated
+2026-09-15,NW-0710,Summit,Post-visit survey,Garden & Seasonal,DIY,Seasonal readiness,Negative,1,Half the seasonal area is empty bays and clearance patio furniture.,Escalated
+2026-09-17,NW-0701,Lakeside,Post-visit survey,Online,DIY,Mobile app / online order,Neutral,3,App aisle locations were mostly right.,Open
+2026-09-17,NW-0704,Harbor View,Online review,Lumber & Building Materials,Pro,Product availability,Negative,2,Drywall and concrete mix were out again this weekend.,Resolved
+2026-09-17,NW-0705,Oak Hollow,Post-visit survey,Store Experience,First-time,Associate helpfulness,Positive,5,The paint associate matched my color perfectly and gave great advice.,Closed - Recognized
+2026-09-17,NW-0707,Northgate,Mobile app,Pro Desk,Pro,Pro customer experience,Positive,5,Quick quote turnaround on a large lumber order.,Closed - Recognized
+2026-09-17,NW-0709,Brookside,Online review,Tools & Hardware,DIY,Locked merchandise,Negative,1,Almost every power tool is locked up now. I gave up and ordered online.,In Progress

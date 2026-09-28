@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>DEV | Microsoft 365 Copilot Executive Decision Sprint</title>
-  <meta name="description" content="Development preview of a Level 100-200 Microsoft 365 Copilot workshop for executives.">
+  <title>DEV | Microsoft 365 Copilot District Operating Sprint</title>
+  <meta name="description" content="Development preview of a Level 100-200 Microsoft 365 Copilot hands-on workshop for District Managers and multi-store field leaders.">
   <style>
     :root {
       --orange: #f96302;
@@ -410,7 +410,7 @@
     }
 
     .scenario-banner::after {
-      content: "DECIDE";
+      content: "LEAD";
       position: absolute;
       right: -0.5rem;
       bottom: -1.3rem;
@@ -697,7 +697,7 @@
   <header class="topbar">
     <div class="brand">
       <span class="brand-mark" aria-hidden="true"></span>
-      <div><strong>Officer Copilot Lab</strong><small>Executive decision sprint</small></div>
+      <div><strong>District Leader Copilot Lab</strong><small>District operating sprint</small></div>
     </div>
     <div class="topbar-progress">
       <div class="progress-label"><span id="progress-label">Activity 1 of 8</span><span>50 minutes</span></div>
@@ -710,16 +710,16 @@
     <aside class="rail" aria-label="Workshop activities">
       <div class="rail-header">
         <p class="eyebrow">Level 100-200</p>
-        <h1>From signal to executive action</h1>
+        <h1>From store signal to district action</h1>
       </div>
       <nav class="nav">
         <button class="nav-button is-active" type="button" data-nav="0"><span class="nav-number">01</span><div><strong>Welcome</strong><small>Objectives and flow</small></div></button>
         <button class="nav-button" type="button" data-nav="1"><span class="nav-number">02</span><div><strong>Prompting pattern</strong><small>Goal + context + source</small></div></button>
-        <button class="nav-button" type="button" data-nav="2"><span class="nav-number">03</span><div><strong>Catch up</strong><small>Find the signal</small></div></button>
-        <button class="nav-button" type="button" data-nav="3"><span class="nav-number">04</span><div><strong>Prepare</strong><small>Enter informed</small></div></button>
-        <button class="nav-button" type="button" data-nav="4"><span class="nav-number">05</span><div><strong>Analyze</strong><small>Test the story</small></div></button>
-        <button class="nav-button" type="button" data-nav="5"><span class="nav-number">06</span><div><strong>Create</strong><small>Shape the message</small></div></button>
-        <button class="nav-button" type="button" data-nav="6"><span class="nav-number">07</span><div><strong>Follow through</strong><small>Make it accountable</small></div></button>
+        <button class="nav-button" type="button" data-nav="2"><span class="nav-number">03</span><div><strong>Catch up</strong><small>Read the district</small></div></button>
+        <button class="nav-button" type="button" data-nav="3"><span class="nav-number">04</span><div><strong>Prepare</strong><small>Walk in ready</small></div></button>
+        <button class="nav-button" type="button" data-nav="4"><span class="nav-number">05</span><div><strong>Analyze</strong><small>Find the store that needs you</small></div></button>
+        <button class="nav-button" type="button" data-nav="5"><span class="nav-number">06</span><div><strong>Cascade</strong><small>Turn priorities into a plan</small></div></button>
+        <button class="nav-button" type="button" data-nav="6"><span class="nav-number">07</span><div><strong>Follow through</strong><small>Hold the line</small></div></button>
         <button class="nav-button" type="button" data-nav="7"><span class="nav-number">08</span><div><strong>Lead responsibly</strong><small>Review and act</small></div></button>
       </nav>
     </aside>
@@ -727,14 +727,14 @@
     <main class="stage" aria-live="polite">
       <section class="panel legacy-panel is-active" data-panel="0">
         <h2 id="activity-title">Welcome and objectives</h2>
-        <p class="legacy-lede">This is a practical lab for copying, adapting, and using executive-ready Microsoft 365 Copilot prompts. Use your own work context when possible; fallback demo data is fictional.</p>
+        <p class="legacy-lede">This is a practical lab for District Managers and multi-store field leaders. You will copy, adapt, and use Microsoft 365 Copilot prompts built around the district operating rhythm: read what is happening across your stores, walk into store visits prepared, find where your time matters most, and turn priorities into owned store actions. Use your own work context when possible; fallback demo data is fictional.</p>
         <div class="objective-list">
-          <article><span>Catch up</span><p>Run a weekly catch-up across email, chats, meetings, and files.</p></article>
-          <article><span>Prepare</span><p>Get meeting context, participant positions, and questions in minutes.</p></article>
-          <article><span>Decide</span><p>Extract decisions, action items, owners, dates, and open questions.</p></article>
-          <article><span>Analyze</span><p>Surface trends, opportunities, and risks from business data.</p></article>
+          <article><span>Catch up</span><p>Read the district across email, Teams chats, channels, and meetings&mdash;grouped by store.</p></article>
+          <article><span>Prepare</span><p>Walk into a store visit or store manager check-in with commitments, metrics, and coaching questions ready.</p></article>
+          <article><span>Analyze</span><p>Use the scorecard and customer feedback to find the stores, and the risks, that need you this week.</p></article>
+          <article><span>Cascade and follow through</span><p>Turn district priorities into a store action plan, then track owners and dates from the district call.</p></article>
         </div>
-        <div class="activity-note"><strong>Training data note:</strong> All fallback demo data references Northwind Home Improvement Co., a fictitious company used for training purposes only.</div>
+        <div class="activity-note"><strong>Training data note:</strong> All fallback demo data describes District 07 of Northwind Home Improvement Co., a fictitious 10-store district used for training purposes only. Store names, managers, and results are invented.</div>
       </section>
 
       <section class="panel legacy-panel" data-panel="1">
@@ -746,157 +746,172 @@
         </div>
         <div class="prompt-card">
           <div class="prompt-header"><h3>Worked example</h3><button class="copy-button" type="button" data-copy="prompt-pattern">Copy</button></div>
-          <pre id="prompt-pattern"><span class="prompt-ingredient ingredient-goal">Identify an impactful active initiative I have been working on and prepare an executive summary for an upcoming leadership discussion.</span> <span class="prompt-ingredient ingredient-context">The audience is a cross-functional executive team, the discussion is limited to 15 minutes, and the objective is to align on one decision or next step.</span> <span class="prompt-ingredient ingredient-source">Review email threads from the past two weeks where I am a sender or recipient. Prioritize recent developments and unresolved issues, and cite the messages supporting each finding.</span> <span class="prompt-ingredient ingredient-expectations">Begin with a brief explanation of why you selected this initiative based on its activity and potential impact. Then provide three key points, the decision needed, two risks, and a recommended next action.</span></pre>
+          <pre id="prompt-pattern"><span class="prompt-ingredient ingredient-goal">Identify the store in my district that most needs my attention this week and prepare me for a check-in with its store manager.</span> <span class="prompt-ingredient ingredient-context">I lead a multi-store district. The check-in is 20 minutes, and the objective is to agree on no more than two priorities and how I can support the store.</span> <span class="prompt-ingredient ingredient-source">Review email and Teams chats from the past two weeks where I am a sender or recipient that mention a store, store manager, customer escalation, staffing, safety, or operational issue. Cite the messages supporting each finding.</span> <span class="prompt-ingredient ingredient-expectations">Begin with a brief explanation of why you selected this store. Then provide three things I should know, one question to ask the store manager, one barrier I could remove for the team, and anything I should verify before the conversation.</span></pre>
         </div>
         <ul class="check-list">
           <li>State the goal clearly: what do you want Copilot to accomplish?</li>
-          <li>Add context about the audience, situation, people, or time period.</li>
-          <li>Identify the email, meeting, file, or other source Copilot should use.</li>
-          <li>Set expectations for format, tone, length, and what to prioritize.</li>
-          <li>Verify facts, numbers, and names before acting or sharing.</li>
+          <li>Add context about your district, the store, the audience, or the time period.</li>
+          <li>Identify the email, chat, meeting, file, or report Copilot should use.</li>
+          <li>Set expectations for format, length, and what to prioritize&mdash;short enough to read between stores.</li>
+          <li>Verify facts, numbers, and names against the system of record before acting or sharing.</li>
         </ul>
       </section>
 
       <section class="panel" data-panel="2">
         <div class="kicker">Activity 3 · 7 minutes</div>
-        <h2>Catch up: find the signal.</h2>
-        <p class="lede">Use Microsoft 365 Copilot Chat to synthesize recent work context, then narrow the response to decisions and risks.</p>
+        <h2>Catch up: read the district.</h2>
+        <p class="lede">Use Microsoft 365 Copilot Chat to scan what came in from your stores, partner teams, and leadership, then sort it into what needs you and what your store managers should own.</p>
         <div class="new-chat-note"><strong>Start a new chat</strong> before running this exercise so context from the worked example does not influence the response.</div>
         <ol class="steps">
-          <li><div><strong>Set your scope.</strong> Replace the bracketed areas with the functions or stakeholders you own.</div></li>
+          <li><div><strong>Set your scope.</strong> Replace the bracketed area with your district name, store numbers, or the partner teams you work with.</div></li>
           <li><div><strong>Run the prompt.</strong> Review the sources Copilot provides and open at least one supporting item.</div></li>
-          <li><div><strong>Challenge the result.</strong> Ask what is uncertain, contradictory, or missing.</div></li>
+          <li><div><strong>Challenge the result.</strong> Ask what is uncertain, contradictory, or missing before you act on it.</div></li>
         </ol>
         <div class="prompt-card">
-          <div class="prompt-header"><h3>Leadership signal scan</h3><button class="copy-button" type="button" data-copy="catch-up-prompt">Copy</button></div>
-          <pre id="catch-up-prompt">Review my work from the past five business days related to [operations, customers, products, people, finance, or another area]. Identify the five developments most likely to require executive attention. For each, explain what changed, why it matters now, the decision or intervention that may be needed, and the source supporting the finding. Separate confirmed facts from possible implications.</pre>
+          <div class="prompt-header"><h3>District pulse</h3><button class="copy-button" type="button" data-copy="catch-up-prompt">Copy</button></div>
+          <pre id="catch-up-prompt">Review my email, Teams chats, and meetings from the past five business days related to my district and stores [district name or store numbers]. Group what you find by store. For each store with activity, tell me what changed, whether it needs my action, the store manager's action, or is FYI only, and cite the source. Then list the three items across the district most likely to affect customers, associates, or results this week, and flag anything that has been waiting on me for more than two days. Separate confirmed facts from possible implications.</pre>
         </div>
         <div class="prompt-card">
           <div class="prompt-header"><h4>Pressure-test follow-up</h4><button class="copy-button" type="button" data-copy="catch-up-follow">Copy</button></div>
-          <pre id="catch-up-follow">Which of these findings has the weakest evidence or conflicting signals? Show me what I should verify before acting.</pre>
+          <pre id="catch-up-follow">Which of these items has the weakest evidence or conflicting information? Tell me what I should confirm with the store manager before acting.</pre>
         </div>
-        <p class="reflection"><strong>Reflection:</strong> Did Copilot surface a decision, or merely organize information?</p>
+        <p class="route-intro"><strong>Optional · Catch up on a district Teams channel</strong>Open your district or store managers' channel in Teams, open Copilot, and paste the prompt below.</p>
+        <div class="prompt-card">
+          <div class="prompt-header"><h4>Channel catch-up</h4><button class="copy-button" type="button" data-copy="catch-up-channel">Copy</button></div>
+          <pre id="catch-up-channel">Summarize the past week in this channel by store. List requests waiting on me, open questions nobody has answered, and every deadline mentioned with the person responsible.</pre>
+        </div>
+        <p class="reflection"><strong>Reflection:</strong> Did Copilot show you where to spend your time, or only what arrived?</p>
       </section>
 
       <section class="panel" data-panel="3">
-        <div class="kicker">Activity 4 · 7 minutes</div>
-        <h2>Prepare: enter informed.</h2>
-        <p class="lede">Use Copilot with an upcoming meeting and the content available to you in Teams or Outlook. The goal is not a generic agenda—it is a sharper leadership posture.</p>
-        <div class="new-chat-note"><strong>Start a new chat</strong> before adding the meeting so the preparation is grounded only in the meeting and its related work context.</div>
-        <div class="activity-note"><strong>Point Copilot to the meeting:</strong> In Copilot Chat, make sure <strong>Work IQ</strong> is on. Select <strong>Add work content</strong> in the prompt box, or type <strong>/</strong>. Choose <strong>Meetings</strong>, search by meeting title or organizer, and select the meeting. It will appear as a reference in the prompt.</div>
+        <div class="kicker">Activity 4 · 8 minutes</div>
+        <h2>Prepare: walk in ready.</h2>
+        <p class="lede">Before a store visit or store manager check-in, bring together what has changed, what was committed last time, and what to look for on the walk&mdash;so the visit is spent coaching, not catching up.</p>
+        <div class="new-chat-note"><strong>Start a new chat</strong> before this exercise so the preparation is grounded only in the store and the content you add.</div>
+        <div class="activity-note"><strong>Point Copilot to the right context:</strong> In Copilot Chat, make sure <strong>Work IQ</strong> is on. Select <strong>Add work content</strong> in the prompt box, or type <strong>/</strong>, then add the store manager by name. Optionally add the store's latest scorecard or visit notes as a file. Each item appears as a reference in the prompt.</div>
         <ol class="steps">
-          <li><div><strong>Choose a real upcoming meeting</strong> and add it to the prompt using the Work IQ steps above.</div></li>
-          <li><div><strong>Run the preparation prompt</strong> with the meeting reference attached.</div></li>
-          <li><div><strong>Verify participant positions</strong> before treating them as fact.</div></li>
+          <li><div><strong>Choose a real store</strong> you will visit or a store manager you will meet soon, and add them to the prompt using the steps above.</div></li>
+          <li><div><strong>Run the visit brief prompt</strong> with the references attached.</div></li>
+          <li><div><strong>Verify commitments and metrics</strong> against your visit notes and reporting before treating them as fact.</div></li>
         </ol>
         <div class="prompt-card">
-          <div class="prompt-header"><h3>Leadership meeting pre-read</h3><button class="copy-button" type="button" data-copy="meeting-prompt">Copy</button></div>
-          <pre id="meeting-prompt">Using the meeting I added to this prompt, prepare me for the discussion. Summarize the purpose, recent developments connected to the agenda, and any decisions that appear to be needed. Identify the participants whose input will be important, but do not infer a person's position unless it is supported by available content. End with three questions I should ask and two assumptions the group should test.</pre>
+          <div class="prompt-header"><h3>Store visit brief</h3><button class="copy-button" type="button" data-copy="meeting-prompt">Copy</button></div>
+          <pre id="meeting-prompt">I am visiting [store name or number] on [day], and the store manager is [add the store manager with /]. Using my email, Teams chats, meetings, and any file I added, prepare a one-page visit brief. Include what has changed at this store in the past 30 days; commitments made at my last visit or since, with owner, due date, and status; the three metrics or conditions I should check on the walk and where in the store to look; two coaching questions for the store manager; and one thing the team has done well that I should recognize. Do not infer anyone's performance or intent unless the content supports it, and mark anything uncertain as Verify on the walk.</pre>
         </div>
-        <p class="reflection"><strong>Engagement moment:</strong> Pair up and compare the questions Copilot proposed. Which one would materially improve the meeting?</p>
+        <p class="route-intro"><strong>No store context in your mailbox? Use the demo district.</strong>Download the <a href="../assets/Demo_District_Store_Performance.xlsx" download="Demo_District_Store_Performance.xlsx">District 07 workbook</a>, attach it with <strong>+</strong> in a new Copilot Chat, and paste this prompt instead.</p>
+        <div class="prompt-card">
+          <div class="prompt-header"><h4>Fallback · Demo store visit brief</h4><button class="copy-button" type="button" data-copy="meeting-fallback">Copy</button></div>
+          <pre id="meeting-fallback">Using the attached District 07 workbook, prepare me for a visit to store NW-0704 Harbor View on 2026-09-30. Use the Store Scorecard, Department Performance, People and Readiness, and Store Visit Log sheets. Include the six-week trend in sales vs plan, staffing coverage, on-shelf availability, pickup on-time, and customer satisfaction; every commitment from prior visits with owner, due date, and status, calling out anything overdue; the three things to check on the walk; two coaching questions for a store manager who is three months into the role; and one thing to recognize.</pre>
+        </div>
+        <div class="prompt-card">
+          <div class="prompt-header"><h4>Take it on the walk</h4><button class="copy-button" type="button" data-copy="meeting-follow">Copy</button></div>
+          <pre id="meeting-follow">Turn this into a walk checklist I can use on my phone: no more than 10 items, grouped by area of the store, each with what good looks like.</pre>
+        </div>
+        <p class="reflection"><strong>Engagement moment:</strong> Pair up and compare the coaching questions Copilot proposed. Which one would open the most useful conversation with a store manager?</p>
       </section>
 
       <section class="panel" data-panel="4">
         <div class="kicker">Activity 5 · 12 minutes</div>
-        <h2>Analyze: test the story.</h2>
-        <p class="lede">Move from communication signals to business evidence. Choose one route; each uses a different dataset and a prompt designed for that tool and business question.</p>
-        <p class="route-intro"><strong>Copilot in Excel</strong>Use the workbook directly in Excel to compare regions, store groups, and products.</p>
+        <h2>Analyze: find the store that needs you.</h2>
+        <p class="lede">Move from messages to evidence. Choose one route; each uses a different District 07 dataset and a prompt built for the question a District Manager asks every week: where will my time make the biggest difference?</p>
+        <p class="route-intro"><strong>Copilot in Excel</strong>Use the district workbook directly in Excel to rank stores on results and operating health.</p>
         <ul class="access-steps">
-          <li>Download and open the <a href="../assets/Demo_Weekly_Store_Product_Performance.xlsx" download="Demo_Weekly_Store_Product_Performance.xlsx">performance workbook</a> in Excel.</li>
+          <li>Download and open the <a href="../assets/Demo_District_Store_Performance.xlsx" download="Demo_District_Store_Performance.xlsx">District 07 workbook</a> in Excel.</li>
           <li>Select the <strong>Copilot button</strong> near the upper-right corner to open the Copilot pane.</li>
           <li>Start a new conversation in the pane, then paste the prompt below.</li>
         </ul>
         <div class="prompt-card">
           <div class="prompt-header"><h3>Copilot in Excel prompt</h3><button class="copy-button" type="button" data-copy="excel-analysis-prompt">Copy</button></div>
-          <pre id="excel-analysis-prompt">Analyze this weekly store and product performance data to identify where leadership attention would have the greatest impact this week. Compare regions, store groups, and products; identify meaningful outliers and trends; and show the evidence behind each finding. Recommend three actions and the additional information needed before making a final decision. Create a visualization that makes the most important comparison easy to understand.</pre>
+          <pre id="excel-analysis-prompt">Analyze the Store Scorecard sheet to show where district leadership attention would have the greatest impact this week. Rank the ten stores on the most recent week and on their six-week trend across sales vs plan, on-shelf availability, pickup on-time, customer satisfaction, staffing coverage, shrink, and safety incidents. Identify any store that looks healthy on sales but carries an operational risk, and any data-quality issues I should not trust. Show the evidence behind each finding, create one chart that makes the most important comparison clear, and recommend the three stores to prioritize with the first action for each.</pre>
         </div>
-        <p class="route-intro"><strong>Analyst</strong>Use the Analyst agent in Microsoft 365 Copilot to identify recurring themes and intervention priorities.</p>
+        <p class="route-intro"><strong>Analyst</strong>Use the Analyst agent in Microsoft 365 Copilot to find where store operating decisions are showing up in customer feedback.</p>
         <ul class="access-steps">
-          <li>Open the <strong>Microsoft 365 Copilot app</strong> and select <strong>Analyst</strong> under <strong>Agents</strong>.</li>
-          <li>Select the <strong>+</strong> attachment control and add the <a href="../assets/Demo_Customer_Feedback.csv" download>customer feedback data</a>.</li>
+          <li>Open the <strong>Microsoft 365 Copilot app</strong> and select <strong>Analyst</strong> under <strong>Agents</strong> or <strong>Tools</strong>.</li>
+          <li>Select the <strong>+</strong> attachment control and add the <a href="../assets/Demo_District_Customer_Feedback.csv" download>District 07 customer feedback</a>. For a richer analysis, also add the <a href="../assets/Demo_District_Store_Performance.xlsx" download="Demo_District_Store_Performance.xlsx">district workbook</a>.</li>
           <li>Start a new Analyst conversation, then paste the prompt below.</li>
         </ul>
         <div class="prompt-card">
           <div class="prompt-header"><h3>Analyst prompt</h3><button class="copy-button" type="button" data-copy="analyst-analysis-prompt">Copy</button></div>
-          <pre id="analyst-analysis-prompt">Analyze this customer feedback data to identify the issues most likely to require executive intervention. Group comments into recurring themes, quantify how often each theme appears, identify the stores, regions, products, or service moments most affected, and include representative evidence. Recommend the three intervention priorities with the expected customer or operational benefit of each. Clearly identify limitations or missing context in the data.</pre>
+          <pre id="analyst-analysis-prompt">Analyze this customer feedback for the ten stores in District 07. Group comments into recurring themes, quantify each theme by store and department, and show where feedback worsened during the period. Identify where a store's operating decisions may be creating a customer problem, and if the store workbook is attached, show where the comments confirm or contradict the scorecard. Include representative comments as evidence, recommend the three store-level priorities with the expected customer benefit of each, and clearly identify the limitations of survey and review data.</pre>
         </div>
         <div class="prompt-card">
           <div class="prompt-header"><h4>Optional · Bring your own data</h4><button class="copy-button" type="button" data-copy="byod-analysis-prompt">Copy</button></div>
-          <pre id="byod-analysis-prompt">Analyze the attached [workbook or CSV] to help me decide [the business decision]. The data covers [time period, population, and business process]. First describe the fields and any data-quality limitations you observe. Then identify the most important trends, exceptions, risks, and opportunities; support each finding with evidence; and recommend three actions. Clearly distinguish what the data proves from what would require additional context.</pre>
+          <pre id="byod-analysis-prompt">Analyze the attached [store scorecard, labor report, or survey export] to help me decide [where to focus my store visits, labor, or coaching this week]. The data covers [time period and stores]. First describe the fields and any data-quality limitations you observe. Then identify the most important trends, exceptions, risks, and opportunities by store; support each finding with evidence; and recommend three actions. Clearly distinguish what the data proves from what I would need to confirm in the store.</pre>
         </div>
         <div class="prompt-card">
           <div class="prompt-header"><h4>Pressure-test either route</h4><button class="copy-button" type="button" data-copy="analysis-follow">Copy</button></div>
-          <pre id="analysis-follow">Argue against your leading recommendation. What alternative explanation, missing data, or risk could change the decision?</pre>
+          <pre id="analysis-follow">Argue against your top-priority store. What alternative explanation, missing data, or store context could change where I should spend my time?</pre>
         </div>
         <div class="activity-note"><strong>Required final step:</strong> After reviewing and correcting the analysis, run the handoff prompt below. This creates the common input used in Activity 6, regardless of which route or dataset you chose.</div>
         <div class="prompt-card">
           <div class="prompt-header"><h3>Create the Activity 6 handoff</h3><button class="copy-button" type="button" data-copy="analysis-handoff">Copy</button></div>
-          <pre id="analysis-handoff">Create a Decision Brief Handoff from this analysis. Include: the decision question; three findings supported by the source data; the evidence for each finding; the recommended action; two risks or counterarguments; and unresolved questions. Keep it under 350 words. Mark any unsupported or uncertain item as Needs validation.</pre>
+          <pre id="analysis-handoff">Create a District Priority Handoff from this analysis. Include: the priority question; the three stores to prioritize and why; the evidence for each; the first action and suggested owner for each store; one best practice from a strong store that others could adopt; two risks or counterarguments; and unresolved questions. Keep it under 350 words. Mark any unsupported or uncertain item as Needs validation.</pre>
         </div>
       </section>
 
       <section class="panel" data-panel="5">
         <div class="kicker">Activity 6 · 8 minutes</div>
-        <h2>Create: turn the handoff into a brief.</h2>
-        <p class="lede">Every Activity 5 route ends with the same Decision Brief Handoff. Use that short, structured block as the input for Copilot in Word.</p>
+        <h2>Cascade: turn priorities into a plan.</h2>
+        <p class="lede">District priorities only matter when store managers can act on them. Every Activity 5 route ends with the same District Priority Handoff; use it to draft a district action plan in Word, then shape it for the channel your store managers actually read.</p>
         <ol class="steps">
-          <li><div><strong>Return to Activity 5.</strong> Copy the Decision Brief Handoff created by the required final prompt.</div></li>
+          <li><div><strong>Return to Activity 5.</strong> Copy the District Priority Handoff created by the required final prompt.</div></li>
           <li><div><strong>Open a blank Word document.</strong> Open Copilot in Word and choose to draft content.</div></li>
-          <li><div><strong>Paste the prompt below.</strong> Replace the bracketed placeholder with your Decision Brief Handoff.</div></li>
-          <li><div><strong>Review the document.</strong> Confirm every fact against the source data before sharing the brief.</div></li>
+          <li><div><strong>Paste the prompt below.</strong> Replace the bracketed placeholder with your District Priority Handoff.</div></li>
+          <li><div><strong>Review the document.</strong> Confirm every fact, owner, and date before sharing the plan.</div></li>
         </ol>
         <div class="prompt-card">
-          <div class="prompt-header"><h3>Executive decision brief</h3><button class="copy-button" type="button" data-copy="create-prompt">Copy</button></div>
-          <pre id="create-prompt">Using the Decision Brief Handoff below, draft a one-page executive decision brief. Use the sections Situation, Evidence, Options, Recommendation, Risks, and Decision Needed. Keep the tone direct and neutral. Preserve important numbers and retain every Needs validation label.
+          <div class="prompt-header"><h3>District action plan</h3><button class="copy-button" type="button" data-copy="create-prompt">Copy</button></div>
+          <pre id="create-prompt">Using the District Priority Handoff below, draft a one-page district action plan for my store managers' weekly call. Use the sections This Week's Focus, Store Priorities (a table with store, issue, evidence, first action, owner, and check-in date), Best Practice to Adopt, Support I Will Provide, and Open Questions. Keep the tone direct, supportive, and specific, with no corporate jargon. Preserve important numbers and retain every Needs validation label.
 
-[Paste the Decision Brief Handoff from Activity 5 here]</pre>
+[Paste the District Priority Handoff from Activity 5 here]</pre>
         </div>
         <div class="prompt-card">
-          <div class="prompt-header"><h4>Executive edit</h4><button class="copy-button" type="button" data-copy="create-follow">Copy</button></div>
-          <pre id="create-follow">Reduce this to no more than one page. Lead with the decision required, retain only evidence that materially affects the decision, and end with the recommended owner and next checkpoint.</pre>
+          <div class="prompt-header"><h4>Store manager version</h4><button class="copy-button" type="button" data-copy="create-follow">Copy</button></div>
+          <pre id="create-follow">Rewrite this plan as a Teams post for my store managers' channel. Keep it under 150 words and readable on a phone. Lead with the one district focus for the week, list each priority store's action and owner, recognize the best-practice store by name, and end with when we will review progress.</pre>
         </div>
-        <p class="reflection"><strong>Reflection:</strong> Did the brief make the decision easier to understand, or simply make the analysis shorter?</p>
+        <div class="activity-note"><strong>Optional · Build the call deck:</strong> Save the Word document to OneDrive, open Copilot in PowerPoint, and ask it to create a presentation from that file: "Create a five-slide district call deck from this document: focus, store priorities, best practice, support, and next check-in."</div>
+        <p class="reflection"><strong>Reflection:</strong> Could a store manager act on this plan without calling you for clarification?</p>
       </section>
 
       <section class="panel" data-panel="6">
-        <div class="kicker">Activity 7 · 6 minutes</div>
-        <h2>Follow through: make it accountable.</h2>
-        <p class="lede">Point Copilot Chat to a specific past meeting, convert the discussion into explicit commitments, and open a ready-to-review follow-up draft in Outlook.</p>
-        <div class="new-chat-note"><strong>Start a new chat</strong> before adding the past meeting so Copilot does not carry forward context from the analysis and writing activities.</div>
-        <div class="activity-note"><strong>Add the specific meeting:</strong> In Copilot Chat, make sure <strong>Work IQ</strong> is on. Select <strong>Add work content</strong>, or type <strong>/</strong>. Choose <strong>Meetings</strong>, search by meeting title or organizer, and select the meeting before pasting the prompt.</div>
+        <div class="kicker">Activity 7 · 5 minutes</div>
+        <h2>Follow through: hold the line.</h2>
+        <p class="lede">Point Copilot to your last district call or store manager meeting, turn the discussion into store-by-store commitments, and open a ready-to-review follow-up in Outlook.</p>
+        <div class="new-chat-note"><strong>Start a new chat</strong> before adding the meeting so Copilot does not carry forward context from the analysis and writing activities.</div>
+        <div class="activity-note"><strong>Add the specific meeting:</strong> In Copilot Chat, make sure <strong>Work IQ</strong> is on. Select <strong>Add work content</strong>, or type <strong>/</strong>. Choose <strong>Meetings</strong>, search by meeting title or organizer, and select the meeting before pasting the prompt. <strong>No transcribed district call?</strong> Download the <a href="../assets/Demo_District_Call_Transcript.docx" download>District 07 call transcript</a> and attach it with <strong>+</strong> instead.</div>
         <div class="prompt-card">
-          <div class="prompt-header"><h3>Decision record and Outlook follow-up</h3><button class="copy-button" type="button" data-copy="follow-through-prompt">Copy</button></div>
-          <pre id="follow-through-prompt">Using the meeting I added to this prompt, create a decision and owner record from the available recap or transcript. Include decisions made, action items with the named owner and stated due date, unresolved questions, and items discussed but not decided. Do not invent an owner or deadline; mark it as unassigned or not specified. Then send an Outlook email to the attendees with the decisions first, owners and dates second, and open questions last. End by asking recipients to correct anything that does not match their understanding.</pre>
+          <div class="prompt-header"><h3>Store commitment tracker and Outlook follow-up</h3><button class="copy-button" type="button" data-copy="follow-through-prompt">Copy</button></div>
+          <pre id="follow-through-prompt">Using the meeting or transcript I added to this prompt, create a store-by-store commitment tracker from the district call. For each store, list decisions made, action items with the named owner and stated due date, and any support requested from me or a partner team. Then list district-wide decisions, unresolved questions, and items discussed but not decided. Do not invent an owner or deadline; mark it as Unassigned or Not specified. Then draft an Outlook email to the attendees with district decisions first, the store tracker second, and open questions last. End by asking recipients to correct anything that does not match their understanding.</pre>
         </div>
         <div class="prompt-card">
-          <div class="prompt-header"><h4>Open the draft in Outlook</h4><button class="copy-button" type="button" data-copy="follow-through-follow">Copy</button></div>
-          <pre id="follow-through-follow">Make the email concise and executive-ready. Use a clear subject line and keep the body under 250 words.</pre>
+          <div class="prompt-header"><h4>Make it field-ready</h4><button class="copy-button" type="button" data-copy="follow-through-follow">Copy</button></div>
+          <pre id="follow-through-follow">Make the email concise and field-ready: a clear subject line, under 250 words, easy to read on a phone, and a reminder of when we will review progress.</pre>
         </div>
         <ol class="steps">
           <li><div><strong>Review the generated email card</strong> in Copilot Chat and confirm the recipients, subject, decisions, owners, and dates.</div></li>
           <li><div><strong>Select Open</strong> to continue editing the generated draft in Outlook.</div></li>
           <li><div><strong>Edit and send</strong> only after confirming the draft against the meeting record.</div></li>
         </ol>
-        <div class="ga-note"><strong>Availability note:</strong> Use a meeting that was transcribed or recorded so Copilot can ground the recap and follow-up in the meeting content.</div>
+        <div class="ga-note"><strong>Availability note:</strong> Use a meeting that was transcribed or recorded so Copilot can ground the tracker and follow-up in the meeting content. The demo transcript works for practice when you do not have one.</div>
       </section>
 
       <section class="panel" data-panel="7">
         <div class="kicker">Activity 8 · 5 minutes</div>
         <h2>Lead responsibly.</h2>
-        <p class="lede">Copilot accelerates preparation and production. Executive accountability remains with the person who acts on the output.</p>
+        <p class="lede">Copilot accelerates preparation and follow-through. Accountability for what happens in your stores remains with the leader who acts on the output.</p>
         <div class="capability-grid">
-          <article><strong>Verify</strong><span>Open sources and confirm names, dates, numbers, and quotations.</span></article>
+          <article><strong>Verify</strong><span>Open sources and confirm names, dates, and numbers against the system of record.</span></article>
           <article><strong>Separate</strong><span>Distinguish facts, interpretations, assumptions, and recommendations.</span></article>
-          <article><strong>Protect</strong><span>Use content only within its intended permissions and business context.</span></article>
-          <article><strong>Challenge</strong><span>Ask for counterarguments, missing evidence, and alternate explanations.</span></article>
-          <article><strong>Edit</strong><span>Apply your judgment to tone, audience, and organizational implications.</span></article>
-          <article><strong>Own</strong><span>The decision and communication remain yours—not Copilot's.</span></article>
+          <article><strong>Protect</strong><span>Keep associate and customer information in approved tools and within its intended permissions.</span></article>
+          <article><strong>Challenge</strong><span>Ask for counterarguments, missing evidence, and the store context the data cannot show.</span></article>
+          <article><strong>Coach</strong><span>Use Copilot to prepare conversations, not to judge people. People decisions stay with you and your HR partner.</span></article>
+          <article><strong>Own</strong><span>The plan, the visit, and the follow-through remain yours&mdash;not Copilot's.</span></article>
         </div>
         <div class="scenario-banner">
           <h3>Your next move</h3>
-          <p>Choose one recurring executive workflow. Redesign it as a sequence: catch up, prepare, analyze, decide, create, and follow through.</p>
+          <p>Choose one part of your week&mdash;the Monday district pulse, a store visit, or the district call&mdash;and rebuild it as catch up, prepare, analyze, cascade, and follow through. Then share the prompt with your store managers.</p>
         </div>
-        <p class="reflection"><strong>Close:</strong> Where could Copilot improve the quality of a decision—not just the speed of a task?</p>
+        <p class="reflection"><strong>Close:</strong> Where could Copilot give you more time on the sales floor&mdash;not just more time at the desk?</p>
       </section>
 
       <footer class="guide">
@@ -909,11 +924,19 @@
     <aside class="resources" aria-label="Workshop resources">
       <h2>Field kit</h2>
       <div class="resource-block">
-        <h3>Practice data</h3>
+        <h3>Practice data &middot; District 07</h3>
         <a href="../">Return to current live workshop</a>
-        <a href="../assets/Demo_Weekly_Store_Product_Performance.xlsx" download="Demo_Weekly_Store_Product_Performance.xlsx">Store performance workbook</a>
-        <a href="../assets/Demo_Customer_Feedback.csv" download>Customer feedback CSV</a>
-        <a href="../assets/executive_use_case_prompts.csv" download>Executive prompt inventory</a>
+        <a href="../assets/Demo_District_Store_Performance.xlsx" download="Demo_District_Store_Performance.xlsx">District store performance workbook</a>
+        <a href="../assets/Demo_District_Customer_Feedback.csv" download>District customer feedback CSV</a>
+        <a href="../assets/Demo_District_Call_Transcript.docx" download>District call transcript</a>
+        <a href="../assets/district_manager_prompt_library.csv" download>District Manager prompt library</a>
+      </div>
+      <div class="resource-block">
+        <h3>Make it a habit</h3>
+        <a href="https://support.microsoft.com/en-us/microsoft-365-copilot/schedule-your-most-used-copilot-prompts" target="_blank" rel="noreferrer">Schedule the Monday district pulse</a>
+        <a href="https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-microsoft-365-copilot-notebooks" target="_blank" rel="noreferrer">Build a district operating notebook</a>
+        <a href="https://support.microsoft.com/en-US/microsoft-365-copilot/what-s-new-in-the-microsoft-365-copilot-app-for-mobile" target="_blank" rel="noreferrer">Use Copilot on your phone between stores</a>
+        <a href="https://support.microsoft.com/en-us/microsoft-365-copilot/share-conversations-responses-in-microsoft-copilot" target="_blank" rel="noreferrer">Share a Copilot chat with your team</a>
       </div>
       <div class="resource-block">
         <h3>Microsoft Learn grounding</h3>
@@ -922,14 +945,15 @@
         <a href="https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/" target="_blank" rel="noreferrer">Analyze and visualize data</a>
         <a href="https://support.microsoft.com/en-us/office/foundations-experiences/copilot-dab/the-copilot-dynamic-action-button-in-word-excel-and-powerpoint" target="_blank" rel="noreferrer">Open Copilot in Excel</a>
         <a href="https://learn.microsoft.com/en-us/training/modules/analyze-visualize-data-copilot/3-generate-insights-analyst-agent" target="_blank" rel="noreferrer">Use the Analyst agent</a>
+        <a href="https://support.microsoft.com/office/cccccca2-9dc8-49a9-ab76-b1a8ee21486c" target="_blank" rel="noreferrer">Copilot in Teams chats and channels</a>
         <a href="https://learn.microsoft.com/en-us/training/modules/copilot-meeting-productivity/" target="_blank" rel="noreferrer">Meeting productivity</a>
-        <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/researcher-agent" target="_blank" rel="noreferrer">Researcher agent</a>
-        <a href="https://support.microsoft.com/en-us/Microsoft-365-Copilot/refer-to-specific-files-and-more-in-microsoft-365-copilot" target="_blank" rel="noreferrer">Reference a specific meeting</a>
+        <a href="https://support.microsoft.com/en-us/Microsoft-365-Copilot/refer-to-specific-files-and-more-in-microsoft-365-copilot" target="_blank" rel="noreferrer">Reference a specific person, file, or meeting</a>
         <a href="https://support.microsoft.com/en-us/office/bizchat-overview/draft-and-send-email-using-microsoft-365-copilot-chat" target="_blank" rel="noreferrer">Draft and open email in Outlook</a>
+        <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/researcher-agent" target="_blank" rel="noreferrer">Researcher agent</a>
       </div>
       <div class="resource-block">
         <h3>Optional extension</h3>
-        <p>Researcher can replace the standard catch-up when the executive needs a deeper, source-cited report across work and web content.</p>
+        <p>Keep a district operating notebook: add your scorecard, visit notes, and district call recaps once, then ask Copilot for a weekly store-by-store brief grounded only in that notebook. Use Researcher before a quarterly business review when you need a deeper, source-cited pre-read.</p>
       </div>
     </aside>
   </div>
